@@ -4,7 +4,7 @@
   <a href="https://www.npmjs.com/package/@compactjs/assign" target="_blank">
     <img alt="Version" src="https://img.shields.io/npm/v/@compactjs/assign.svg">
   </a>
-  <a href="https://github.com/CompactJS/assign/blob/master/LICENSE" target="_blank">
+  <a href="https://github.com/CompactJS/assign/blob/main/LICENSE" target="_blank">
     <img alt="License: MIT" src="https://img.shields.io/github/license/CompactJS/assign" />
   </a>
 </p>
@@ -68,7 +68,7 @@ console.log(target);
 // }
 ```
 
-Check out the [index.test.js](https://github.com/CompactJS/assign/blob/master/test/index.test.js) file for more examples.
+Check out the [index.test.js](https://github.com/CompactJS/assign/blob/main/test/index.test.js) file for more examples.
 
 ## Run tests
 
@@ -106,7 +106,7 @@ Give a ⭐️ if this project helped you!
 
 ## 📝 License
 
-Distributed under the [MIT](https://github.com/CompactJS/assign/blob/master/LICENSE) License.
+Distributed under the [MIT](https://github.com/CompactJS/assign/blob/main/LICENSE) License.
 
 ---
 
