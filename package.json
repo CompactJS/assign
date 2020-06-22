@@ -1,6 +1,6 @@
 {
   "name": "@compactjs/assign",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Recursive assign for objects and arrays",
   "source": "src/index.js",
   "main": "dist/index.js",
