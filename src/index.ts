@@ -1,6 +1,11 @@
-export const assign = (target, source) => {
+/**
+ * Assigns object/array to object/array
+ * @param target Object or array to assign to
+ * @param source Source object or array
+ */
+export function assign(target: object | any[], source: object | any[]): void {
   Object.keys(source).forEach((key, i) => {
-    let prop = key;
+    let prop: string | number = key;
     if (Array.isArray(target)) {
       prop = i;
     } else if (Array.isArray(source)) {
@@ -12,4 +17,4 @@ export const assign = (target, source) => {
     }
     if (prop !== undefined) target[prop] = source[key];
   });
-};
+}

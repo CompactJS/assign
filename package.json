@@ -2,20 +2,18 @@
   "name": "@compactjs/assign",
   "version": "1.0.1",
   "description": "Recursive assign for objects and arrays",
-  "source": "src/index.js",
+  "source": "src/index.ts",
   "main": "dist/index.js",
   "module": "dist/index.module.js",
   "unpkg": "dist/index.umd.js",
-  "types": "src/index.d.ts",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "microbundle",
     "dev": "microbundle watch",
     "prepare": "npm run build",
-    "lint": "eslint src",
-    "test": "npm run lint && npm run build && node test/index.test.js"
+    "test": "npm run build && node test/index.test.js"
   },
   "files": [
-    "src",
     "dist"
   ],
   "repository": {
@@ -23,7 +21,9 @@
     "url": "git+https://github.com/CompactJS/assign.git"
   },
   "keywords": [
-    "javascript"
+    "javascript",
+    "assign",
+    "objects"
   ],
   "author": "Timo Bechtel",
   "license": "MIT",
@@ -34,8 +34,7 @@
   "devDependencies": {
     "@semantic-release/changelog": "^5.0.1",
     "@semantic-release/git": "^9.0.0",
-    "eslint": "^7.24.0",
-    "microbundle": "^0.12.4",
+    "microbundle": "^0.13.0",
     "semantic-release": "^17.4.2"
   }
 }
